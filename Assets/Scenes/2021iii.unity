@@ -211,7 +211,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c10b1c029ca5d174190213025232b737,
         type: 3}
       propertyPath: m_Name
-      value: lamp1
+      value: Lamp
       objectReference: {fileID: 0}
     - target: {fileID: 7071182760956848314, guid: c10b1c029ca5d174190213025232b737,
         type: 3}
@@ -296,7 +296,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c5a3e226fdde0864f9d7a5fabbe9222b,
         type: 3}
       propertyPath: m_Name
-      value: computer1
+      value: Computer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5a3e226fdde0864f9d7a5fabbe9222b, type: 3}
@@ -2168,7 +2168,7 @@ GameObject:
   - component: {fileID: 1591952859}
   - component: {fileID: 1591952858}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2522,7 +2522,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000012654435310, guid: f77ebcdeb49293c40889ebc9f839e6e4, type: 3}
       propertyPath: m_Name
-      value: SmallTable
+      value: Table 1
       objectReference: {fileID: 0}
     - target: {fileID: 4000012195402566, guid: f77ebcdeb49293c40889ebc9f839e6e4, type: 3}
       propertyPath: m_RootOrder
