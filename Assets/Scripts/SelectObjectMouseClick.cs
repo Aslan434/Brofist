@@ -28,10 +28,7 @@ public class SelectObjectMouseClick : MonoBehaviour
             if(HitInfo.transform.gameObject.GetComponent<SelectableObject>() != null)
             {
                 SelectedRenderer = HitInfo.transform.gameObject.GetComponent<Renderer>();
-                if ( SelectedRenderer != null)
-                {
-                    SelectedRenderer.material = SelectingMat;
-                }
+                SelectedRenderer.material = SelectingMat;
                 Location = HitInfo.transform;
             }
         }
