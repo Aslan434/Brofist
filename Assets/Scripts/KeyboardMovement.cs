@@ -3,23 +3,28 @@
 public class KeyboardMovement : MonoBehaviour
 {
 
-    public int RotateSpeed = -100;
+    private float DesiredRot;
+    public float RotSpeed = 100;
+    public float Damping = 4;
 
-    public float Damping = 0;
-
-    // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
-        
+        DesiredRot = transform.eulerAngles.y;
     }
-    
-    // Update is called once per frame
-    void Update()
+
+    private void Update()
     {
-        if(Damping <= 1f)
+
+        if(Input.GetAxisRaw("Horizontal") == -1)
         {
-            Damping += 0.001f;
+            DesiredRot += RotSpeed * Time.deltaTime;
         }
-        transform.Rotate(0, Input.GetAxis("Horizontal") * RotateSpeed * Time.deltaTime * Damping, 0);
+        else if(Input.GetAxisRaw("Horizontal") == 1)
+        {
+            DesiredRot -= RotSpeed * Time.deltaTime;
+        }
+
+        var DesiredRotQ = Quaternion.Euler(transform.eulerAngles.x, DesiredRot, transform.eulerAngles.z);
+        transform.rotation = Quaternion.Slerp(transform.rotation, DesiredRotQ, Time.deltaTime * Damping);
     }
 }

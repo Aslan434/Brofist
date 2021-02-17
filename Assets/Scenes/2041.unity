@@ -166,8 +166,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c2e04b03503d1e4c8563eab464ff4cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateSpeed: -100
-  Damping: 0
+  RotSpeed: 100
+  Damping: 4
 --- !u!1 &22151764
 GameObject:
   m_ObjectHideFlags: 0
