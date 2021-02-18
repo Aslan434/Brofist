@@ -8,6 +8,8 @@ TagManager:
   - Wall
   - CamPoint
   - Door
+  - DirectionalLight
+  - SelectableObj
   layers:
   - Default
   - TransparentFX
