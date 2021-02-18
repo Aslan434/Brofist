@@ -2951,7 +2951,7 @@ GameObject:
   - component: {fileID: 602919954}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -6526,7 +6526,7 @@ GameObject:
   - component: {fileID: 1264202850}
   m_Layer: 0
   m_Name: CamPoint
-  m_TagString: Untagged
+  m_TagString: CamPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7582,7 +7582,7 @@ GameObject:
   - component: {fileID: 1562748184}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -8072,7 +8072,7 @@ GameObject:
   - component: {fileID: 1680515825}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -9162,7 +9162,7 @@ GameObject:
   - component: {fileID: 1865338993}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10433,7 +10433,7 @@ GameObject:
   - component: {fileID: 2093130177}
   m_Layer: 5
   m_Name: Quote
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -10611,7 +10611,7 @@ GameObject:
   - component: {fileID: 2106685542}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
