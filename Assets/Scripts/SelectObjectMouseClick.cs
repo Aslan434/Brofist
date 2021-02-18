@@ -25,11 +25,14 @@ public class SelectObjectMouseClick : MonoBehaviour
 
         if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out HitInfo))
         {
-            if(HitInfo.transform.gameObject.GetComponent<SelectableObject>() != null)
+            if(HitInfo.transform.tag != "Light")
             {
-                SelectedRenderer = HitInfo.transform.gameObject.GetComponent<Renderer>();
-                SelectedRenderer.material = SelectingMat;
-                Location = HitInfo.transform;
+                if (HitInfo.transform.gameObject.GetComponent<SelectableObject>() != null)
+                {
+                    SelectedRenderer = HitInfo.transform.gameObject.GetComponent<Renderer>();
+                    SelectedRenderer.material = SelectingMat;
+                    Location = HitInfo.transform;
+                }
             }
         }
 

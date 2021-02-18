@@ -11,7 +11,10 @@ public class SelectableObject : MonoBehaviour
 
     private void Start()
     {
-        DefaultMat = GetComponent<Renderer>().material;
+        if(HasLight == false)
+        {
+            DefaultMat = GetComponent<Renderer>().material;
+        }
     }
 
     public Material ReturnDefaultMat()

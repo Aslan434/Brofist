@@ -292,7 +292,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000010754454028, guid: e053dc897fa5cd74dbc81e55e06a1614, type: 3}
       propertyPath: m_TagString
-      value: SelectableObj
+      value: Light
       objectReference: {fileID: 0}
     - target: {fileID: 1000010754454028, guid: e053dc897fa5cd74dbc81e55e06a1614, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -350,6 +350,26 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 84746727}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &84746729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010754454028, guid: e053dc897fa5cd74dbc81e55e06a1614,
+    type: 3}
+  m_PrefabInstance: {fileID: 84746727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &84746730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84746729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d0686f272b972f4ca4772c0af16a616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HasLight: 1
+  Light: {fileID: 2086655535}
 --- !u!1001 &249511587
 PrefabInstance:
   m_ObjectHideFlags: 0
