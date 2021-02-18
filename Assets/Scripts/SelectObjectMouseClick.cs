@@ -8,6 +8,8 @@ public class SelectObjectMouseClick : MonoBehaviour
     private Renderer SelectedRenderer;
     private Material DefaultMat;
     private Transform Location;
+    private RaycastHit HitInfo;
+    private RaycastHit TapHitInfo;
 
    // Update is called once per frame
     void Update()
@@ -21,15 +23,27 @@ public class SelectObjectMouseClick : MonoBehaviour
             Location = null;
         }
 
-        RaycastHit HitInfo = new RaycastHit();
-        bool Hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out HitInfo);
-        if (Hit)
+        if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out HitInfo))
         {
             if(HitInfo.transform.gameObject.GetComponent<SelectableObject>() != null)
             {
                 SelectedRenderer = HitInfo.transform.gameObject.GetComponent<Renderer>();
                 SelectedRenderer.material = SelectingMat;
                 Location = HitInfo.transform;
+            }
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out TapHitInfo))
+            {
+                if (TapHitInfo.transform.gameObject.GetComponent<SelectableObject>())
+                {
+                    if (TapHitInfo.transform.gameObject.GetComponent<SelectableObject>().ReturnHasLight())
+                    {
+                        TapHitInfo.transform.gameObject.GetComponent<SelectableObject>().SetLight();
+                    }
+                }
             }
         }
     }
