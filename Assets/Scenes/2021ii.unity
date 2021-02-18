@@ -1117,7 +1117,7 @@ GameObject:
   - component: {fileID: 280380968}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -2951,7 +2951,7 @@ GameObject:
   - component: {fileID: 602919954}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Wall
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
