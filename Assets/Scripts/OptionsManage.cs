@@ -8,13 +8,28 @@ public class OptionsManage : MonoBehaviour
     public GameObject Canvas;
     public Text Text;
 
+    private Rply CurrentRply;
     private SelectableObject SelectedOBJ;
+    private SelecatbleObjectStory SOS;
 
-    public void ProcessOptions(Rply RawRply, string name)
+    public void GenieOptions(Rply RawRply, string name)
     {
+        CurrentRply = RawRply;
         Canvas.SetActive(true);
         Text.text = RawRply.GenieTalk;
         SelectedOBJ = GameObject.Find(name).GetComponent<SelectableObject>();
         SelectedOBJ.enabled = false;
+        SOS = GameObject.Find(name).GetComponent<SelecatbleObjectStory>();
+        SOS.enabled = false;
+    }
+
+    public void NextOption()
+    {
+        Text.text = CurrentRply.DefaultRplyByChar;
+    }
+
+    public void LastStep()
+    {
+        Canvas.SetActive(false);
     }
 }

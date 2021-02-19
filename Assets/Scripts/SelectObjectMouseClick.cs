@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-
 public class SelectObjectMouseClick : MonoBehaviour
 {
 
@@ -12,6 +11,9 @@ public class SelectObjectMouseClick : MonoBehaviour
     private RaycastHit TapHitInfo;
     private OptionsManage OptionsManager;
     private SelectableObject SelectedOBJ;
+    private bool NextOption = false;
+    private bool LastStep = false;
+    private bool CanHit = true;
 
     private void Start()
     {
@@ -43,7 +45,7 @@ public class SelectObjectMouseClick : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(0))
+        if (CanHit && Input.GetMouseButtonDown(0))
         {
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out TapHitInfo))
             {
@@ -53,10 +55,11 @@ public class SelectObjectMouseClick : MonoBehaviour
                     {
                         TapHitInfo.transform.gameObject.GetComponent<SelectableObject>().SetLight();
                     }
-                    if (TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>())
+                    if (TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>() && TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().enabled)
                     {
-                        //Debug.Log(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply().GenieTalk);
-                        OptionsManager.ProcessOptions(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply(), TapHitInfo.transform.name);
+                        OptionsManager.GenieOptions(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply(), TapHitInfo.transform.name);
+                        CanHit = false;
+                        NextOption = true;
                     }
                     else
                     {
@@ -68,6 +71,26 @@ public class SelectObjectMouseClick : MonoBehaviour
                         }
                     }
                 }
+            }
+        }
+
+        if (LastStep)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                OptionsManager.LastStep();
+                LastStep = false;
+                CanHit = true;
+            }
+        }
+
+        if (NextOption)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                OptionsManager.NextOption();
+                NextOption = false;
+                LastStep = true;
             }
         }
     }
