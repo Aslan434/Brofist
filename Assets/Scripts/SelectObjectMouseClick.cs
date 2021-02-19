@@ -11,6 +11,7 @@ public class SelectObjectMouseClick : MonoBehaviour
     private RaycastHit HitInfo;
     private RaycastHit TapHitInfo;
     private OptionsManage OptionsManager;
+    private SelectableObject SelectedOBJ;
 
     private void Start()
     {
@@ -33,7 +34,7 @@ public class SelectObjectMouseClick : MonoBehaviour
         {
             if(HitInfo.transform.tag != "Light")
             {
-                if (HitInfo.transform.gameObject.GetComponent<SelectableObject>() != null)
+                if (HitInfo.transform.gameObject.GetComponent<SelectableObject>() != null && HitInfo.transform.gameObject.GetComponent<SelectableObject>().enabled)
                 {
                     SelectedRenderer = HitInfo.transform.gameObject.GetComponent<Renderer>();
                     SelectedRenderer.material = SelectingMat;
@@ -55,13 +56,15 @@ public class SelectObjectMouseClick : MonoBehaviour
                     if (TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>())
                     {
                         //Debug.Log(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply().GenieTalk);
-                        OptionsManager.ProcessOptions(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply());
+                        OptionsManager.ProcessOptions(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply(), TapHitInfo.transform.name);
                     }
                     else
                     {
                         if(TapHitInfo.transform.tag != "Light")
                         {
                             Debug.Log(ProcessString(TapHitInfo.transform.name));
+                            SelectedOBJ = GameObject.Find(TapHitInfo.transform.name).GetComponent<SelectableObject>();
+                            SelectedOBJ.enabled = false;
                         }
                     }
                 }
