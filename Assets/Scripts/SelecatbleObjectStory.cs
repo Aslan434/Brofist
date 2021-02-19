@@ -13,7 +13,7 @@ public class SelecatbleObjectStory : MonoBehaviour
     public struct Rply
     {
         public string GenieTalk;
-        public string MyDefaultRply;
+        public string DefaultRplyByChar;
         public int UI;
         public string MyFirstOption;
         public string MySecondOption;
@@ -22,7 +22,7 @@ public class SelecatbleObjectStory : MonoBehaviour
     private void Start()
     {
         MyRply.GenieTalk = Genie;
-        MyRply.MyDefaultRply = DefaultRply;
+        MyRply.DefaultRplyByChar = DefaultRply;
         MyRply.UI = Ui;
         MyRply.MyFirstOption = FirstOption;
         MyRply.MySecondOption = SecondOption;
