@@ -52,7 +52,10 @@ public class SelectObjectMouseClick : MonoBehaviour
                     }
                     else
                     {
-                        Debug.Log(ProcessString(TapHitInfo.transform.name));
+                        if(TapHitInfo.transform.tag != "Light")
+                        {
+                            Debug.Log(ProcessString(TapHitInfo.transform.name));
+                        }
                     }
                 }
             }
