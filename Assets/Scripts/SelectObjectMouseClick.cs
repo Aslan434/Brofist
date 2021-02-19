@@ -48,7 +48,7 @@ public class SelectObjectMouseClick : MonoBehaviour
                     }
                     if (TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>())
                     {
-                        Debug.Log(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnStory());
+                        Debug.Log(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnGenie());
                     }
                     else
                     {

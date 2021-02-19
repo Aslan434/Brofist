@@ -2,11 +2,17 @@
 
 public class SelecatbleObjectStory : MonoBehaviour
 {
+    //Reshai
+    public string Genie;
+    public string MyRply;
 
-    public string Story;
-
-    public string ReturnStory()
+    public string ReturnGenie()
     {
-        return Story;
+        return Genie;
+    }
+
+    public string ReturnMyRply()
+    {
+        return MyRply;
     }
 }
