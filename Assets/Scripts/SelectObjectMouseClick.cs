@@ -10,8 +10,14 @@ public class SelectObjectMouseClick : MonoBehaviour
     private Transform Location;
     private RaycastHit HitInfo;
     private RaycastHit TapHitInfo;
+    private OptionsManage OptionsManager;
 
-   // Update is called once per frame
+    private void Start()
+    {
+        OptionsManager = GameObject.Find("OptionsManager").GetComponent<OptionsManage>();
+    }
+
+    // Update is called once per frame
     void Update()
     {
 
@@ -48,7 +54,8 @@ public class SelectObjectMouseClick : MonoBehaviour
                     }
                     if (TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>())
                     {
-                        Debug.Log(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply().GenieTalk);
+                        //Debug.Log(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply().GenieTalk);
+                        OptionsManager.ProcessOptions(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply());
                     }
                     else
                     {

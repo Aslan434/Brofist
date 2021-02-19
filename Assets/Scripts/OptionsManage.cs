@@ -1,18 +1,10 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using static SelecatbleObjectStory;
 
 public class OptionsManage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void ProcessOptions(Rply RawRply)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Debug.Log(RawRply);
     }
 }
