@@ -7,7 +7,6 @@ TagManager:
   - Ground
   - Wall
   - CamPoint
-  - Door
   - DirectionalLight
   - SelectableObj
   - Light

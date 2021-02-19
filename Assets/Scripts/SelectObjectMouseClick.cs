@@ -46,8 +46,31 @@ public class SelectObjectMouseClick : MonoBehaviour
                     {
                         TapHitInfo.transform.gameObject.GetComponent<SelectableObject>().SetLight();
                     }
+                    if (TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>())
+                    {
+                        Debug.Log(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnStory());
+                    }
+                    else
+                    {
+                        Debug.Log(ProcessString(TapHitInfo.transform.name));
+                    }
                 }
             }
         }
+    }
+
+    private string ProcessString(string Story)
+    {
+        char[] ProcessedStory = new char[Story.Length];
+        for (int i = 0; i < Story.Length; i++)
+        {
+            //??!!What is this loop?
+            if (Story[i].ToString() == "." || Story[i].ToString() == "1" || Story[i].ToString() == "2" || Story[i].ToString() == "3" || Story[i].ToString() == "4" || Story[i].ToString() == "5" || Story[i].ToString() == "6" || Story[i].ToString() == "7" || Story[i].ToString() == "8" || Story[i].ToString() == "9" || Story[i].ToString() == "(" || Story[i].ToString() == ")")
+            {
+                continue;
+            }
+            ProcessedStory[i] = Story[i];
+        }
+        return new string(ProcessedStory);
     }
 }

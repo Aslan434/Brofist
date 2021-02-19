@@ -2998,7 +2998,7 @@ GameObject:
   - component: {fileID: 602919954}
   m_Layer: 0
   m_Name: Door
-  m_TagString: Door
+  m_TagString: SelectableObj
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -3884,6 +3884,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 784501907}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &796988986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012862128748, guid: ca1b6a54d5f844248a66c6339eabffed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1315325568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &796988987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796988986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Story: sadfsfd
 --- !u!1001 &798830712
 PrefabInstance:
   m_ObjectHideFlags: 0
