@@ -3149,6 +3149,7 @@ GameObject:
   - component: {fileID: 602919956}
   - component: {fileID: 602919955}
   - component: {fileID: 602919954}
+  - component: {fileID: 602919958}
   m_Layer: 0
   m_Name: Door
   m_TagString: SelectableObj
@@ -3230,6 +3231,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &602919958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602919953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: 'You are not yet ready for the future. Do you really want to go out? '
+  DefaultRply: No
+  Name: The anxious boy
 --- !u!1001 &629079251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6540,6 +6556,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1217149327}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1217149329 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012352486224, guid: d7d1b586e081e1b449b95c91f43f6281,
+    type: 3}
+  m_PrefabInstance: {fileID: 1217149327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1217149330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217149329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Why do you have so many mirrors?
+  DefaultRply: I read in a book that mirror-gazing meditation reduces stress and
+    anxiety
+  Name: The anxious boy
 --- !u!1 &1219521445
 GameObject:
   m_ObjectHideFlags: 0
@@ -7066,6 +7104,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca1b6a54d5f844248a66c6339eabffed, type: 3}
+--- !u!1 &1315325569 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012862128748, guid: ca1b6a54d5f844248a66c6339eabffed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1315325568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1315325570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315325569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Diapers?
+  DefaultRply: Few days I can't sleep. After hours of tossing around, when I do sleep....you
+    know what happens
+  Name: The anxious boy
 --- !u!1 &1324858954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 42219231221491713, guid: 3f4317bab59146047ae63f15f8e7147e,
@@ -7189,7 +7249,7 @@ MonoBehaviour:
   Genie: Looks like you love reading!
   DefaultRply: I heard once that lack of knowledge is what creates fear. I read a
     lot of books, so that I am not scared of the future
-  Name: 
+  Name: The anxious boy
 --- !u!1001 &1342552247
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9728,6 +9788,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca1b6a54d5f844248a66c6339eabffed, type: 3}
+--- !u!1 &1827324631 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012862128748, guid: ca1b6a54d5f844248a66c6339eabffed,
+    type: 3}
+  m_PrefabInstance: {fileID: 1827324630}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1827324632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827324631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Most of them are full sleeves. Doesn't it make you feel stuffy?
+  DefaultRply: No, it makes me feel safe, for some reason, when I go out
+  Name: The anxious boy
 --- !u!1 &1833118422
 GameObject:
   m_ObjectHideFlags: 0
