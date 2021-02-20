@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1436401134557790510}
   - component: {fileID: 1312460353797873192}
   - component: {fileID: 1880826737531960303}
+  - component: {fileID: 6855308287736866272}
   m_Layer: 5
   m_Name: Help
   m_TagString: Untagged
@@ -99,6 +100,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &6855308287736866272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2460026602741743078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2c178572311404789c1e5684c7aba9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextScene: 
 --- !u!1 &4821498864730175303
 GameObject:
   m_ObjectHideFlags: 0

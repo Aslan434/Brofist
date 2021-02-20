@@ -1,13 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SCENETOCHANGE : MonoBehaviour
 {
-    public void ChangeSCENE(string Scene)
+
+    public string NextScene;
+
+    private void Update()
     {
-        Debug.Log("dsf");
-        SceneManager.LoadScene(Scene, LoadSceneMode.Additive);
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            SceneManager.LoadScene(sceneName: "Scenes/"+NextScene);
+        }
     }
 }
