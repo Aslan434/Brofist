@@ -392,7 +392,7 @@ MonoBehaviour:
     you
   DefaultRply: My friends come over rarely. But when they do, we watch TV sitting
     on this
-  Name: The boy
+  Name: The heartbroken boy
 --- !u!1001 &249511587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Genie: All of them are books on computers
   DefaultRply: I like computers
-  Name: The boy
+  Name: The heartbroken boy
 --- !u!1 &345588018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000012654435310, guid: f77ebcdeb49293c40889ebc9f839e6e4,
@@ -533,7 +533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Genie: Do you love computers? Your entire bookshelf was filled with books on computers
   DefaultRply: Yeah. I think I can understand them better than humans and love
-  Name: The boy
+  Name: The heartbroken boy
 --- !u!1 &372058929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,7 +1080,7 @@ MonoBehaviour:
   DefaultRply: My mother used to sleep with me. Once, I asked her to stop fighting
     with dad and she promised me that she would, but they fought again. I gave up
     on them and did not feel safe sleeping with her
-  Name: The boy
+  Name: The heartbroken boy
 --- !u!1001 &643556435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1384,7 +1384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Genie: Your parents are still fighting. Do you really want to go out?
   DefaultRply: No
-  Name: The boy
+  Name: The heartbroken boy
 --- !u!1001 &753744077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2318,7 +2318,7 @@ MonoBehaviour:
   Genie: Your clothes look kinda dope!
   DefaultRply: I used to go shoping with my ex-girlfriend. She was pretty good at
     this
-  Name: The boy
+  Name: The heartbroken boy
 --- !u!1 &1240040735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,7 +2441,7 @@ MonoBehaviour:
     and became closer to my friends and my girlfriend. Once she broke up with me
     I withdrew from the world. I started to read a lot of books trying my best to
     stay with myself
-  Name: The boy
+  Name: The heartbroken boy
 --- !u!1 &1378425765 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1000010396448152, guid: 1238da40397ef9d428b6d3212674e684,
@@ -2463,7 +2463,7 @@ MonoBehaviour:
   Genie: So that's where you placed all the gifts and memories you recieved from
     your ex-girlfriend? Right next to the trash. Why don't you throw it away?
   DefaultRply: I....I don't know
-  Name: The boy
+  Name: The heartbroken boy
 --- !u!1001 &1480961444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3263,7 +3263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Genie: What do you watch?
   DefaultRply: Anything except movies based on love. So fake....
-  Name: The boy
+  Name: The heartbroken boy
 --- !u!1001 &2070629059
 PrefabInstance:
   m_ObjectHideFlags: 0
