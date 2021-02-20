@@ -35,7 +35,10 @@ public class SelectableObject : MonoBehaviour
 
     private void OnDisable()
     {
-        var x = GameObject.Find("SceneManager");
-        x.GetComponent<SceneManagementSystem>().RemoveID();
+        if (gameObject.GetComponent<SelecatbleObjectStory>())
+        {
+            var x = GameObject.Find("SceneManager");
+            x.GetComponent<SceneManagementSystem>().RemoveID();
+        }    
     }
 }

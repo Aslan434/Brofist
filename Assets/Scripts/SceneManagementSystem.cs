@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class SceneManagementSystem : MonoBehaviour
 {
@@ -6,7 +7,7 @@ public class SceneManagementSystem : MonoBehaviour
     private GameObject[] SelecatableObjs;
     private int ID;
 
-    public Canvas CanvasStory;
+    public GameObject ChangeS;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +25,7 @@ public class SceneManagementSystem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(ID == 0)
+        if(ID <= 0)
         {
             ChangeScene();
         }
@@ -37,6 +38,6 @@ public class SceneManagementSystem : MonoBehaviour
 
     private void ChangeScene()
     {
-
+        ChangeS.SetActive(true);
     }
 }
