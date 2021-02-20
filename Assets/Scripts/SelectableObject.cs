@@ -32,4 +32,10 @@ public class SelectableObject : MonoBehaviour
         LightState = !LightState;
         Light.SetActive(LightState);
     }
+
+    private void OnDisable()
+    {
+        var x = GameObject.Find("SceneManager");
+        x.GetComponent<SceneManagementSystem>().RemoveID();
+    }
 }
