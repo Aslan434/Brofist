@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 public class SelectObjectMouseClick : MonoBehaviour
 {
 
     public Material SelectingMat;
+    public GameObject NameTextCanvas;
+    public Text NameText;
 
     private Renderer SelectedRenderer;
     private Material DefaultMat;
@@ -57,6 +60,7 @@ public class SelectObjectMouseClick : MonoBehaviour
                     }
                     if (TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>() && TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().enabled)
                     {
+                        NameTextCanvas.SetActive(false);
                         OptionsManager.GenieOptions(TapHitInfo.transform.gameObject.GetComponent<SelecatbleObjectStory>().ReturnCurrentRply(), TapHitInfo.transform.name);
                         CanHit = false;
                         NextOption = true;
@@ -65,7 +69,8 @@ public class SelectObjectMouseClick : MonoBehaviour
                     {
                         if(TapHitInfo.transform.tag != "Light")
                         {
-                            Debug.Log(ProcessString(TapHitInfo.transform.name));
+                            NameTextCanvas.SetActive(true);
+                            NameText.text = ProcessString(TapHitInfo.transform.name);
                             SelectedOBJ = GameObject.Find(TapHitInfo.transform.name).GetComponent<SelectableObject>();
                             SelectedOBJ.enabled = false;
                         }
