@@ -261,6 +261,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &64098007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013698201512, guid: 336df0048f520f745a550ee50fb12cd6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1674487530}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &64098008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64098007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Why is it still queen size? You would save some space. Or else you should
+    get a pet to sleep beside you(Genies love dogs!)
+  DefaultRply: I don't own this house, it's on rent
+  Name: You
 --- !u!1 &161856905
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,6 +376,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &288563828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013024148770, guid: 5b88d82a8ae2d7f40aedac31333ce98f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1276173540}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &288563829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288563828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Your ex-wife loved this mirror didn't she? She loved to apply her cosmetics
+    in front of this mirror
+  DefaultRply: Yeah
+  Name: You
 --- !u!1001 &309088737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -890,6 +934,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d342eee9ce10d34eabfc49d8fbd2c6f, type: 3}
+--- !u!1 &663999492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010642358986, guid: 3dcb1df6c82dde44f9dac4ef0ed2b1f4,
+    type: 3}
+  m_PrefabInstance: {fileID: 316846568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &663999493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663999492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: You should remember your weight whenever you open this thing
+  DefaultRply: I am not fat!
+  Name: You
 --- !u!1001 &709584378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -971,6 +1036,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasLight: 1
   Light: {fileID: 451901805}
+--- !u!1 &753527369 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013609345918, guid: 21e32de74bee7044fbd8655ea8eeda74,
+    type: 3}
+  m_PrefabInstance: {fileID: 1939111623}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &753527370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 753527369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: You don't like your job. Why are you reading about it?
+  DefaultRply: I have to pay bills. Following my passion won't do that
+  Name: You
 --- !u!1001 &755173521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1020,6 +1106,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c90de59bff4939e4bbe4cd9324b0decc, type: 3}
+--- !u!1 &755173522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011110786804, guid: c90de59bff4939e4bbe4cd9324b0decc,
+    type: 3}
+  m_PrefabInstance: {fileID: 755173521}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &755173523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755173522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Aah! Isn't this the couch where you and your wife used to cuddle and watch
+    TV? Oh, my bad. Ex-wife
+  DefaultRply: ....
+  Name: You
 --- !u!1001 &833131843
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1310,6 +1418,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.01786663, y: 0.02136081, z: 0.01899951}
   m_Center: {x: 0.00000019278382, y: -0.000010660384, z: 0.00013471584}
+--- !u!114 &1048474002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048474000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Why do you still have her cosmetics?
+  DefaultRply: I....I still love her
+  Name: You
 --- !u!1001 &1066627262
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1359,6 +1482,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f77ebcdeb49293c40889ebc9f839e6e4, type: 3}
+--- !u!1 &1078563397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012476365536, guid: e1b42a4f28b93f74c8031aa95708fed2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1602517468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1078563398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078563397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Remeber to wash your hands and stay safe gamers! I am done with this coronavirus
+  DefaultRply: Yeah me too
+  Name: You
 --- !u!1 &1081555947
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,6 +1891,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02720cae123f313459194cd837caf3aa, type: 3}
+--- !u!1 &1247972492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010396448152, guid: 1238da40397ef9d428b6d3212674e684,
+    type: 3}
+  m_PrefabInstance: {fileID: 1563689574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1247972493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247972492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: This is filled with anti-depression pills....
+  DefaultRply: You can find these pills in almost everyone's house. It's pretty common
+    nowadays
+  Name: You
 --- !u!1001 &1276173540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1896,6 +2062,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1464603866 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011328392264, guid: 2fe85e6b53467fa4ab15c063fbd4d24a,
+    type: 3}
+  m_PrefabInstance: {fileID: 598549176}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1464603867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464603866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Pizza?
+  DefaultRply: Eating it once in a while is not bad. Oh....I forgot you can see the
+    past
+  Name: You
 --- !u!1001 &1485893792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1945,6 +2133,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83b95243d15f01b4e85b125582c896c5, type: 3}
+--- !u!1 &1506525606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013985145586, guid: 38d0814617146db459147d50d7e8739a,
+    type: 3}
+  m_PrefabInstance: {fileID: 585005267}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1506525607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1506525606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Why do you even have this? When was the last time you took a bath?
+  DefaultRply: Why do you ask me when you can see the past?
+  Name: You
 --- !u!1 &1528516373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,6 +2573,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HasLight: 1
   Light: {fileID: 978981542}
+--- !u!1 &1623346565 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012595975274, guid: 928ab05920c2fc44dafb3573d1b5fbc1,
+    type: 3}
+  m_PrefabInstance: {fileID: 833131843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1623346566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623346565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: Do you cook good? Genies eat only tasty food by the way
+  DefaultRply: 'I can boil water without burning down this place '
+  Name: You
 --- !u!1001 &1674487530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2506,6 +2736,28 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1795949072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013246514392, guid: 02720cae123f313459194cd837caf3aa,
+    type: 3}
+  m_PrefabInstance: {fileID: 1240165680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1795949073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795949072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: I am surprised how it is still in one piece! Your weight should have crushed
+    it. Even my magic can't hold that in one piece!
+  DefaultRply: Hey!
+  Name: You
 --- !u!1001 &1890407022
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2963,6 +3215,29 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &2141965043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000014116007982, guid: 3d257e714ef9ccd449e0d0e0e373e1e5,
+    type: 3}
+  m_PrefabInstance: {fileID: 920238375}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2141965044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2141965043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Genie: You ate dinner with your ex-boss in this table once right? You liked him
+    didn't you?
+  DefaultRply: Yeah. He was replaced by my new boss, who makes my work hell. All
+    good people leave my life....
+  Name: You
 --- !u!1001 &710619808553369341
 PrefabInstance:
   m_ObjectHideFlags: 0

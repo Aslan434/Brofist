@@ -16,7 +16,7 @@ public class OptionsManage : MonoBehaviour
     {
         CurrentRply = RawRply;
         Canvas.SetActive(true);
-        Text.text = RawRply.GenieTalk;
+        Text.text = "  Reshai:   " + RawRply.GenieTalk;
         SelectedOBJ = GameObject.Find(name).GetComponent<SelectableObject>();
         SelectedOBJ.enabled = false;
         SOS = GameObject.Find(name).GetComponent<SelecatbleObjectStory>();
@@ -25,7 +25,7 @@ public class OptionsManage : MonoBehaviour
 
     public void NextOption()
     {
-        Text.text = CurrentRply.DefaultRplyByChar;
+        Text.text = " " + CurrentRply.Name + ":   " + CurrentRply.DefaultRplyByChar;
     }
 
     public void LastStep()
