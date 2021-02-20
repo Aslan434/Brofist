@@ -28,7 +28,7 @@ public class MenuButton : MonoBehaviour
 
     private void StartGame()
     {
-        SceneManager.LoadScene(sceneName: "Scenes/White");
+        SceneManager.LoadScene("White", LoadSceneMode.Single);
     }
 
     private void QuitGame()
