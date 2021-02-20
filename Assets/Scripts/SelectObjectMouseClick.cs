@@ -26,7 +26,7 @@ public class SelectObjectMouseClick : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        // I HAVE NEVER WRITTEN SUCH BAD CODE IN MY ENTIRE LIFE, but hey it's a game jam ¯\_(ツ)_/¯ 
         if (Location != null)
         {
             SelectedRenderer = Location.gameObject.GetComponent<Renderer>();

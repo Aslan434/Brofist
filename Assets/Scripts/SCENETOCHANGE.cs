@@ -10,7 +10,7 @@ public class SCENETOCHANGE : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            SceneManager.LoadScene(sceneName: "Scenes/"+NextScene);
+            SceneManager.LoadScene(NextScene, LoadSceneMode.Additive);
         }
     }
 }
