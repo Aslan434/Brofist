@@ -780,7 +780,7 @@ PrefabInstance:
     - target: {fileID: 1846994447753534488, guid: 56e8ad0bd3aef3a4588ef30964e42899,
         type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 1846994447753534488, guid: 56e8ad0bd3aef3a4588ef30964e42899,
         type: 3}
@@ -876,6 +876,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Intro
+      objectReference: {fileID: 0}
+    - target: {fileID: 1846994447753534492, guid: 56e8ad0bd3aef3a4588ef30964e42899,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56e8ad0bd3aef3a4588ef30964e42899, type: 3}
@@ -4805,6 +4810,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6855308287736866272, guid: 252538e887ff25d43b2c7fd7e3d57faa,
         type: 3}
+      propertyPath: Outro
+      value: 
+      objectReference: {fileID: 1443576939}
+    - target: {fileID: 6855308287736866272, guid: 252538e887ff25d43b2c7fd7e3d57faa,
+        type: 3}
       propertyPath: NextScene
       value: Blue
       objectReference: {fileID: 0}
@@ -8151,6 +8161,166 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4f4b62acbfcebb548b218133379ace12, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f42838308461a634682be0b1eb1a5a4c, type: 3}
+--- !u!1001 &1443576938
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -2448679212011658733, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: NextScene
+      value: Blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108652045214118, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_Text
+      value: 'The anxious boy: My friend has called me to play valorant. I want to
+        play with him.
+
+        Reshai: Do you like your friends?
+
+        The anxious
+        boy: Staying with them makes me feel happy and strong for some reason. Is
+        that wierd?
+
+        Reshai: No, of course not. (turns toward you) Let''s
+        go meet the other friend, before she recieves the message of course!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653004263623, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.990755
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653004263623, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488492, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_Name
+      value: Outro
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108653169488492, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cb759c2d53ad9044a98ec3cf3ad53d56, type: 3}
+--- !u!1 &1443576939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 432108653169488492, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+    type: 3}
+  m_PrefabInstance: {fileID: 1443576938}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1468902667
 PrefabInstance:
   m_ObjectHideFlags: 0
