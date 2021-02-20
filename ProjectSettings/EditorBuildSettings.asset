@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Blue.unity
     guid: 059601af97d509046917749de65fdeb1
+  - enabled: 1
+    path: Assets/Scenes/Outro.unity
+    guid: a15bff5b653e5ab4b909e1fb82afab1d
   m_configObjects: {}
