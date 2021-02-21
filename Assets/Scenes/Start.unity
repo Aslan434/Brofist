@@ -629,7 +629,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1090283000
 RectTransform:
   m_ObjectHideFlags: 0
@@ -646,7 +646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1.62883, y: 5.429472}
+  m_AnchoredPosition: {x: -1.62883, y: 14.8}
   m_SizeDelta: {x: -90, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1090283001
@@ -1268,7 +1268,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1953114269
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1321,8 +1321,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Programmer and Dev - Aslan\nArt - Mohelm97\r and Next Level 3D\nProvided
-    by Unity Asset store"
+  m_Text: "Programmer and Dev - Aslan\nArt - Mohelm97\r and Next Level 3D\nMusic
+    - T.C. Edwards\r\nProvided by Unity Asset store"
 --- !u!222 &1953114271
 CanvasRenderer:
   m_ObjectHideFlags: 0
