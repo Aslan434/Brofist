@@ -2870,7 +2870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bb30e27116645f43a94e5847066fc46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Genie: So that's where you placed all the gifts and memories you recieved from
+  Genie: So this is where you placed all the gifts and memories you recieved from
     your ex-girlfriend? Right next to the trash. Why don't you throw it away?
   DefaultRply: I....I don't know
   Name: The heartbroken boy
