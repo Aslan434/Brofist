@@ -3503,12 +3503,37 @@ PrefabInstance:
       propertyPath: NextScene
       value: Red
       objectReference: {fileID: 0}
+    - target: {fileID: 432108652045214117, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4131573
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108652045214117, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4131573
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108652045214117, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4131573
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108652045214117, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 53.189
+      objectReference: {fileID: 0}
+    - target: {fileID: 432108652045214117, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.5642
+      objectReference: {fileID: 0}
     - target: {fileID: 432108652045214118, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
         type: 3}
       propertyPath: m_Text
       value: So you think you are the only person who has problems? Let me show you
-        the life of 3 teenagers, who are friends, and how they handle it. Press Space
-        to conitinue
+        the life of 3 teenagers, who are friends, and how they handle their problems.
+        Press Space to conitinue
       objectReference: {fileID: 0}
     - target: {fileID: 432108652045214118, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
         type: 3}
@@ -3518,7 +3543,7 @@ PrefabInstance:
     - target: {fileID: 432108653004263623, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -13
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 432108653169488480, guid: cb759c2d53ad9044a98ec3cf3ad53d56,
         type: 3}
