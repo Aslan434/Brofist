@@ -4,6 +4,8 @@
 
 ### This is my game for Brackeys Game Jam 2021.1
 
+You can play my game <a href="https://4slan.itch.io/brofist">here</a>
+
 <img src="Img/ReadmeIMG.png"/>
 
 
