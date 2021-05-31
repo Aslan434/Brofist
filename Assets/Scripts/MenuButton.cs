@@ -12,9 +12,6 @@ public class MenuButton : MonoBehaviour
     public GameObject ControlsText;
     public GameObject CreditsCanvas;
 
-    private bool IsCreditsActive = false;
-    private bool IsControlsActive = false;
-
     void Start()
     {
         Quit.onClick.AddListener(QuitGame);
@@ -25,8 +22,8 @@ public class MenuButton : MonoBehaviour
 
     private void ShowCredits()
     {
-        IsCreditsActive = !IsCreditsActive;
-        CreditsCanvas.SetActive(IsCreditsActive);
+        CreditsCanvas.SetActive(true);
+        ControlsText.SetActive(false);
     }
 
     private void StartGame()
@@ -36,8 +33,8 @@ public class MenuButton : MonoBehaviour
 
     private void ShowControls()
     {
-        IsControlsActive = !IsControlsActive;
-        ControlsText.SetActive(IsControlsActive);
+        ControlsText.SetActive(true);
+        CreditsCanvas.SetActive(false);
     }
 
     private void QuitGame()
